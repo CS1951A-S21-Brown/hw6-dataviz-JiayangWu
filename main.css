@@ -10,6 +10,43 @@ html, body, text, button, label, h3, h5 {
     padding-top: 20px;
     text-align: center;
 }
+#subtitle{
+    text-align: center;
+}
+
+body {
+    transition: all 1s;
+    background-color: #d8e8f7;
+}
+
+
+.charts {
+    padding-left:20px;
+    padding-right:20px;
+    background-color: #fffFff;
+/*     margin:2em; */
+    margin-left:2em;
+    margin-bottom:3.6em;
+    border-radius:10px;
+    height:480px;
+    width:auto;
+    box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.2), 0 6px 18px 0 rgba(0, 0, 0, 0.18);
+/*     margin-top:px; */
+/* padding-top:20px; */
+}
+
+.chart1, .chart2, .chart3, .chart4{
+    border-top: 2px solid #777;
+    padding-top:20px;
+
+}
+
+.chartSections{
+    margin-top:10px;
+    margin-bottom:10px;
+    padding-top:5px;
+    font-size:18px;
+}
 
 select {
     color: #555;
@@ -28,10 +65,34 @@ select {
     
 }
 
-.graph3 {
-    height:1720 px;
+#regionButton {
+    margin:3px;
 }
 
+.select2, #graph2{
+    /*     align:center; */
+      display: flex;
+      justify-content: center;
+    }
+
+    
+.select3 {
+    position: relative;
+    font-size:15px;
+    left:200px;
+}
+
+/* #graph2 {
+    padding-top:15px;
+} */
+
+svg {
+/*     padding-top:50px; */
+margin:20px;
+}
+.select2 {
+    padding-top:10px;
+}
 #pie_title {
     font-size:15px;
 /*     font-weight:bold; */
@@ -39,4 +100,29 @@ select {
     align:center;
     
 }
+
+div.tooltip {	
+    text-align: center;	
+        font: 13px;		
+    background: rgb(168, 203, 247);	
+    border: 3px;		
+    border-radius: 8px;		
+    position: absolute;			
+    pointer-events: none;	
+    width: 100px;					
+    height: 53px;					
+    padding: 2px;	
+}
+
+#pie_title {
+    font-size:18px;
+}
+
 /* Include any custom CSS styling here! */
+.written_questions{
+    padding:100px;
+}
+
+#chart2 {
+    padding-left:10px;
+}
